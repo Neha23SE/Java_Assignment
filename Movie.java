@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package com.techlab.movieApi;
 import java.io.*;
 import java.util.ArrayList;
@@ -5,6 +6,11 @@ import java.util.List;
 import java.util.Scanner;
 
 
+=======
+package movieApi;
+
+import java.io.Serializable;
+>>>>>>> 80f7a70a4b7679b47aef657209cfd44c25ada0fb
 
 class Movie implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -52,6 +58,7 @@ class Movie implements Serializable {
                 '}';
     }
 }
+<<<<<<< HEAD
 class MovieManager {
     private static final String InputFilePath = "data.txt";
     private static final String OutputFilePath = "output_data.txt";
@@ -227,3 +234,5 @@ public class Main {
         controller.start();
     }
 }
+=======
+>>>>>>> 80f7a70a4b7679b47aef657209cfd44c25ada0fb
